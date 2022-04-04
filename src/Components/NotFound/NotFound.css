@@ -2,6 +2,10 @@
     padding: 200px 0;
 }
 
+.error-area {
+	background: #edeef3;
+}
+
 .error-content {
 	margin-top: 50px;
 }
