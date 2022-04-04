@@ -2,9 +2,9 @@ import React from 'react';
 
 const Banner = () => {
     return (
-        <div>
-            
-        </div>
+        <section className="banner-area">
+            <h2>Banner Section</h2>
+        </section>
     );
 };
 

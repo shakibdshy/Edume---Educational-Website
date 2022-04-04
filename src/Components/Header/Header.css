@@ -1,3 +1,22 @@
-.active {
-    color: red;
+.header {
+    background: transparent;
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.nav-link {
+    font-size: 20px;
+    font-weight: 600;
+    color: #0e1133;
+    text-transform: capitalize;
+}
+
+
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .show > .nav-link {
+    color: #2b4eff;
 }
