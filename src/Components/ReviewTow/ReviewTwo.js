@@ -5,7 +5,7 @@ import useReview from "../../hooks/useReview";
 import ReviewItem from "../ReviewItem/ReviewItem";
 import "./Review.css";
 
-const Review = () => {
+const ReviewTwo = () => {
   const [reviews, setReviews] = useReview();
 
   return (
@@ -13,17 +13,11 @@ const Review = () => {
       <Container>
         <Row>
           <Col md={12}>
-            <h2 className='text-center mb-5'>
-              Total Customer Review {reviews.length}
-            </h2>
             <div className='grid grid-col-3 gap-50'>
-              {reviews
-                .map((review) => <ReviewItem key={review.id} review={review} />)
-                .slice(0, 3)}
+              {reviews.map((review) => (
+                <ReviewItem key={review.id} review={review} />
+              ))}
             </div>
-            <Link className='btn review-btn' to='/reviewtwo'>
-              View All Review
-            </Link>
           </Col>
         </Row>
       </Container>
@@ -31,4 +25,4 @@ const Review = () => {
   );
 };
 
-export default Review;
+export default ReviewTwo;
