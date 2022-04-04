@@ -4,8 +4,8 @@
 
 # List Of Component
 
-1. **Header Component**
-2. **Banner Component**
-3. **Review Component**
-4. **Chart Component**
-5. **Question Component**
+- **Header Component**
+- **Banner Component**
+- **Review Component**
+- **Chart Component**
+- **Question Component**
