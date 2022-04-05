@@ -17,7 +17,7 @@ const Banner = () => {
                 Meet university,and cultural institutions, who'll share their
                 experience.
               </p>
-              <Link className='btn' to='/review'>
+              <Link className='btn' to='/reviewtwo'>
                 View All Review
               </Link>
             </div>
