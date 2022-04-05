@@ -1,6 +1,6 @@
 # **Edume - Educational Website**
 
-**[Netlify Link](https://www.example.com)**
+**[Netlify Link](https://edumereact.netlify.app/)**
 
 # List Of Component
 
