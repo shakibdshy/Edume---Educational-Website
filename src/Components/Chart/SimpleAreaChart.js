@@ -12,7 +12,7 @@ const SimpleAreaChart = () => {
   const data = [
     {
       month: "Mar",
-      investment: 100000,
+      investment: 900000,
       sell: 24100,
       revenue: 10401,
     },
