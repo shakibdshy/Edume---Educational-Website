@@ -1,5 +1,6 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import LineBarAreaComposedChart from '../Chart/LineBarAreaComposedChart';
 import SimpleAreaChart from '../Chart/SimpleAreaChart';
 import './Dashboard.css';
 
@@ -12,7 +13,7 @@ const Dashboard = () => {
                         <SimpleAreaChart />
                     </Col>
                     <Col md={6}>
-                        <SimpleAreaChart />
+                        <LineBarAreaComposedChart />
                     </Col>
                 </Row>
             </Container>
